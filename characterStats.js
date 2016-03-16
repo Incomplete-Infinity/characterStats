@@ -232,6 +232,7 @@ var character;
              .attr("value",key)
              .text(key)); 
             });
+            $("#year").show();
         });
     }
 
@@ -320,7 +321,6 @@ var character;
             $("#login-window").hide();
             loadEndpoints();
             $("#year").change(function(){populateDivs();});
-            $("#year").show();
         } else {
         loginSetup(token);
         $("#year").hide();

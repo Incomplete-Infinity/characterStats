@@ -1,0 +1,27 @@
+body
+{
+    font: 1em "Trebuchet MS",sans-serif;
+    background: black url(http://community.eveonline.com/ccp/img/layout/bg-new.jpg) top right no-repeat;
+    background-attachment: fixed;
+    color: rgb(200,200,200);
+    width:99%;
+}
+
+text { color: rgb(200,200,200);fill : rgb(200,200,200);!important }
+
+#login-window {
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 25px;
+    border-color: rgb(20,20,20);
+    padding:10px;
+    background-color: rgba(43, 43, 43, 0.95);
+}
+#login {
+    color: rgb(200,200,200);
+}
+
+#information {
+background-color: rgba(0, 0, 0, 0.75);
+
+}
